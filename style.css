@@ -1,0 +1,40 @@
+@charset "UTF-8";
+
+.box {
+    display: flex;
+    gap: 32px;
+}
+#name {
+	color: rgb(237, 242, 237);
+	font-size :45px;
+	font-weight:bold;
+	background-color: rgb(226, 43, 107);
+	text-align: center;
+}
+#hobby {
+	color: rgb(207, 42, 191);
+	font-size :25px;
+	font-weight:lighter;
+}
+.highschool {
+	color: blue;
+	font-size :25px;
+	font-weight: 700;
+}
+
+body {
+	font-family: 'Noto Sans JP', sans-serif;
+	background: rgb(80, 187, 241); /* 追加 */
+}
+.box {
+	border: 2px solid aquamarine;
+}
+@media screen and (max-width: 600px) {
+    .box {
+        box-direction: column;
+    }
+
+	.box {
+        width: 100%;
+    }
+}
